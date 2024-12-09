@@ -49,16 +49,9 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: false
-socials_in_search: true
-bib_search: true
-
-navbar_pages:
-  - about.md
-  - publications.md
-  - projects.md
-  - blog.md
-  - cv.md
+search_enabled: true
+# socials_in_search: true
+# bib_search: true
 # navbar_pages:
 #   - about.md
 #   - projects.md

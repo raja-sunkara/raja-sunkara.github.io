@@ -49,23 +49,9 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: false
+search_enabled: true
 socials_in_search: true
 bib_search: true
-
-navbar_pages:
-  - about.md
-  - publications.md
-  - projects.md
-  - blog.md
-  - cv.md
-# navbar_pages:
-#   - about.md
-#   - projects.md
-#   - publications.md
-#   - blog.md
-#   - cv.md
-
 
 # Dimensions
 max_width: 930px
@@ -336,7 +322,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Sunkara]
-  first_name: [Raja]
+  first_name: [Albert, A.]
 
   style: apa
   locale: en

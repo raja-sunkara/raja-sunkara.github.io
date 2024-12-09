@@ -4,7 +4,7 @@ github_users:
 repo_description_lines_max: 3
 
 github_repos:
-  - LabSAINT/SPD-Conv
-  - LabSAINT/YOGA
+  - raja-sunkara/SPD-Conv
+  - raja-sunkara/YOGA
   - raja-sunkara/Advanced-Topics-in-Artificial-Intelligence
   - raja-sunkara/Machine-Learning-in-Computer-Vision

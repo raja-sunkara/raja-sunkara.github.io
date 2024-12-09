@@ -1,0 +1,18 @@
+github_users:
+  - torvalds
+  - alshedivat
+  - raja-sunkara
+
+repo_description_lines_max: 3
+
+github_repos:
+  - alshedivat/al-folio
+  - jekyll/jekyll
+  - twbs/bootstrap
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - mathjax/MathJax
+  - jpswalsh/academicons
+  - raja-sunkara/SPD-Conv
+  - raja-sunkara/YOGA
+  - raja-sunkara/Advanced-Topics-in-Artificial-Intelligence
