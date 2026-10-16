@@ -364,7 +364,7 @@ scholar:
 enable_publication_badges:
   altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
   dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+  google_scholar: false # off: Google Scholar blocks the build server, so counts showed as 0. Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
   inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
@@ -419,7 +419,7 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # disabled: the deploy workflow does not install ImageMagick, so the resized .webp files were never generated and images showed as broken. enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
