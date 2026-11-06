@@ -1,97 +1,123 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Name
+      value: Raja Sunkara
+    - name: Position
+      value: Ph.D. Candidate in Computer Science, Missouri S&T
+    - name: Research
+      value: Black-box optimization, multi-armed bandits, reinforcement learning, LLMs
+    - name: Email
+      value: pavanraja753@gmail.com
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Computer Science
+      institution: Missouri University of Science and Technology, Rolla, MO, USA
+      year: 2023 – present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Advisor: Prof. Ardhendu Tripathy. GPA 4.0/4.0"
+        - "Research: black-box optimization, multi-armed bandits, reinforcement learning, LLMs"
+    - title: M.S. (Thesis) in Computer Science
+      institution: Missouri University of Science and Technology, Rolla, MO, USA
+      year: 2021 – 2022
       description:
-        - Description 1.
-        - Description 2.
+        - "Advisor: Prof. Tie Luo. GPA 4.0/4.0"
+        - "Thesis: Computer Vision in Adverse Conditions: Small Objects, Low-Resolution Images, and Edge Deployment"
+    - title: B.Tech. in Aerospace Engineering
+      institution: Indian Institute of Technology Madras, Chennai, India
+      year: 2013 – 2017
+      description:
+        - "Thesis advisor: Prof. Ranjith Mohan"
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Research Assistant
+      institution: Statistical Machine Learning Lab (Prof. Ardhendu Tripathy), Missouri S&T
+      year: Dec 2022 – present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed adaptive partitioning schemes for optimistic black-box optimization that learn a function's low-dimensional structure, with provably better regret than SequOOL (ICML 2025; NeurIPS 2024 OPT workshop).
+        - Framed weight quantization of large language models as a black-box optimization task, reducing perplexity.
+        - Working on pure-exploration algorithms for multi-armed bandits.
+    - title: Graduate Research Assistant
+      institution: Securing AI and IoT Lab (Prof. Tie Luo), Missouri S&T
+      year: Aug 2021 – Dec 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Proposed SPD-Conv, a CNN building block for small objects and low-resolution images (ECML PKDD 2022).
+        - Designed YOGA, a lightweight object detector with multiscale attention for edge devices (Pattern Recognition 2023).
+        - Built a multi-label latent diffusion model that generates chest X-ray images for training medical-imaging models.
+        - Explored text-to-video generation with reinforcement learning and diffusion models.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Industry Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: R&D Data Scientist Intern
+      institution: Alcon (Medical Data Science), Fort Worth, TX, USA
+      year: May 2022 – Aug 2022
+      description:
+        - Built a CNN-based, semi-supervised image registration model reaching a 95% registration rate.
+        - Quantized models to FP16 and INT8 TensorRT engines, cutting memory by 50% and inference time by 77%.
+    - title: Research Engineer (AI / Computer Vision)
+      institution: Matdun Labs, Hyderabad, India
+      year: Oct 2020 – Jul 2021
+      description:
+        - Built an ensemble object detector for package localization in delivery images, with a 4% false-positive rate.
+        - Deployed a ResNet face anti-spoofing model with IR dot-projector hardware on a Jetson Nano.
+        - Optimized TensorRT engines for Jetson Nano, reducing RAM by 20% and improving inference speed by 16%.
+    - title: Data Scientist
+      institution: Agrometrics, Hyderabad, India
+      year: Jun 2018 – Oct 2020
+      description:
+        - Designed the database and BI system for farm-management and quality-assessment software.
+        - Detected crop-health anomalies from Sentinel-2 and Landsat-8 satellite imagery (92% accuracy).
+    - title: Data Analyst
+      institution: Enfrien Innovations, Bengaluru, India
+      year: Aug 2017 – Jun 2018
+      description:
+        - Built a CART model for solar power plant site selection along canal networks.
+        - Optimized tilt angle and layout for floating solar plants, contributing to a 5 MW floating solar project.
+
+- title: Publications
+  type: list
+  contents:
+    - "<b>Adaptive Partitioning Schemes for Optimistic Optimization.</b> R. Sunkara, A. Tripathy. <i>ICML 2025</i>."
+    - "<b>YOGA: Deep Object Detection in the Wild with Lightweight Feature Learning and Multiscale Attention.</b> R. Sunkara, T. Luo. <i>Pattern Recognition</i>, 139:109451, 2023."
+    - "<b>No More Strided Convolutions or Pooling: A New CNN Building Block for Low-Resolution Images and Small Objects.</b> R. Sunkara, T. Luo. <i>ECML PKDD 2022</i>."
+    - "<b>Extraction of Key Features and Enhanced Prediction Framework of Breast Cancer Occurrence.</b> P. Sahu, P. Giri, R. Sunkara, R. Sundararajan. <i>ICOEI 2022</i>."
+    - 'Full list with links on the <a href="/publications/">publications page</a>.'
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Best Research Award ($1,000)
+      institution: Securing AI and IoT Lab, Missouri S&T
+      year: 2022
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Service
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "Reviewer: AISTATS (2024, 2025), NeurIPS (2024), ICLR (2025)"
+
+- title: Skills
+  type: map
+  contents:
+    - name: Languages
+      value: Python, C/C++, SQL, R, MATLAB, Scala
+    - name: ML
+      value: PyTorch, MXNet, NumPy, OpenCV, pandas, scikit-learn, TensorRT, Weights & Biases
+    - name: Big data
+      value: Hadoop, Spark, Hive
+
+- title: Coursework
+  type: list
+  contents:
+    - "Mathematics and statistics: functional analysis, high-dimensional statistics, probability and stochastic processes, numerical analysis, time-series analysis"
+    - "Machine learning: theory of reinforcement learning, machine learning in computer vision, advanced topics in AI, convex optimization"
+
+- title: Activities
+  type: list
+  contents:
+    - "National Service Scheme volunteer, IIT Madras: taught mathematics to underprivileged students for 100+ hours"
+    - "Cultural Secretary, Alakananda Hostel, IIT Madras"
