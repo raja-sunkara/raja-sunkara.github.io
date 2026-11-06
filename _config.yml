@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Raja
-middle_name: 
+middle_name:
 last_name: Sunkara
 email: pavanraja753@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -64,7 +64,6 @@ navbar_pages:
 #   - publications.md
 #   - blog.md
 #   - cv.md
-
 
 # Dimensions
 max_width: 930px
