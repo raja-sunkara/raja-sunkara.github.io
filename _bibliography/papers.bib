@@ -1,9 +1,6 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-
 @inproceedings{sunkara2025adaptive,
   abbr={ICML},
   title={Adaptive Partitioning Schemes for Optimistic Optimization},
@@ -26,42 +23,63 @@
   selected={true}
 }
 
-@inproceedings{sunkara2022no,
-  title={No more strided convolutions or pooling: A new CNN building block for low-resolution images and small objects},
-  author={Sunkara, Raja and Luo, Tie},
-  booktitle={Joint European conference on machine learning and knowledge discovery in databases},
-  pages={443--459},
-  year={2022},
-  organization={Springer},
-  abbr={ECML-PKDD},
-  google_scholar_id={0izLItjtcgwC},
-  bibtex_show={true},
-  selected={true}
-}
-
-
-@inproceedings{sahu2022extraction,
-  title={Extraction of key features and enhanced prediction framework of breast cancer occurrence},
-  author={Sahu, Praveen and Giri, Pragatheiswar and Sunkara, Raja and Sundararajan, Raji},
-  booktitle={2022 6th International Conference on Trends in Electronics and Informatics (ICOEI)},
-  pages={1679--1685},
-  year={2022},
-  organization={IEEE}
-}
-
 @article{sunkara2023yoga,
-  title={YOGA: Deep object detection in the wild with lightweight feature learning and multiscale attention},
+  abbr={Pattern Recognition},
+  title={{YOGA}: Deep Object Detection in the Wild with Lightweight Feature Learning and Multiscale Attention},
   author={Sunkara, Raja and Luo, Tie},
   journal={Pattern Recognition},
   volume={139},
   pages={109451},
   year={2023},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  doi={10.1016/j.patcog.2023.109451},
+  abstract={YOGA is a deep-learning object detector built to run on low-end edge devices while staying accurate. Its backbone, CSPGhostNet, learns half of each layer's feature maps with ordinary convolutions and produces the other half with cheap linear operations, which roughly halves the number of filters. Its neck, AFF-PANet, fuses features across scales with attentional feature fusion instead of plain concatenation. On COCO-val and COCO-testdev, compared with more than ten state-of-the-art detectors, YOGA gives the best trade-off between model size and accuracy: up to 22% higher AP with 23–34% fewer parameters and FLOPs. It also runs in real time on an NVIDIA Jetson Nano.},
+  arxiv={2307.05945},
+  code={https://github.com/TrustAIoT/YOGA_object-detection},
+  preview={yoga.png},
+  bibtex_show={true},
+  selected={true}
 }
 
-@book{sunkara2023computer,
+@inproceedings{sunkara2022no,
+  abbr={ECML-PKDD},
+  title={No More Strided Convolutions or Pooling: A New {CNN} Building Block for Low-Resolution Images and Small Objects},
+  author={Sunkara, Raja and Luo, Tie},
+  booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD)},
+  series={Lecture Notes in Computer Science},
+  volume={13715},
+  pages={443--459},
+  year={2022},
+  publisher={Springer},
+  doi={10.1007/978-3-031-26409-2_27},
+  abstract={Convolutional neural networks lose fine-grained information through strided convolutions and pooling layers. This hurts badly on harder tasks such as low-resolution images and small objects. SPD-Conv replaces each strided convolution or pooling layer with a space-to-depth (SPD) layer, which rearranges every 2×2 block of pixels into channels without discarding anything, followed by a non-strided convolution. The block is general and drops into most CNN architectures. Applied to YOLOv5 (object detection) and ResNet (image classification), it clearly outperforms state-of-the-art models on low-resolution images and small objects.},
+  arxiv={2208.03641},
+  code={https://github.com/LabSAINT/SPD-Conv},
+  preview={spd_conv.png},
+  google_scholar_id={0izLItjtcgwC},
+  bibtex_show={true},
+  selected={true}
+}
+
+@inproceedings{sahu2022extraction,
+  abbr={ICOEI},
+  title={Extraction of Key Features and Enhanced Prediction Framework of Breast Cancer Occurrence},
+  author={Sahu, Praveen and Giri, Pragatheiswar and Sunkara, Raja and Sundararajan, Raji},
+  booktitle={2022 6th International Conference on Trends in Electronics and Informatics (ICOEI)},
+  pages={1679--1685},
+  year={2022},
+  publisher={IEEE},
+  html={https://ieeexplore.ieee.org/abstract/document/9777165},
+  bibtex_show={true}
+}
+
+@mastersthesis{sunkara2023computer,
+  abbr={M.S. Thesis},
   title={Computer Vision in Adverse Conditions: Small Objects, Low-Resolution Images, and Edge Deployment},
   author={Sunkara, Raja},
+  school={Missouri University of Science and Technology},
   year={2023},
-  publisher={Missouri University of Science and Technology}
+  abstract={Deep-learning computer vision models perform poorly under difficult conditions: small objects, low-resolution images, and deployment on low-end edge devices. This thesis studies these conditions and proposes a solution for each. For small objects and low-resolution images it introduces SPD-Conv, a CNN building block that replaces strided convolutions and pooling. For edge deployment it introduces YOGA, a lightweight object detector with two-phase feature learning and attention-based multi-scale feature fusion. Both are evaluated on COCO against state-of-the-art models, with code and models publicly available. Advised by Prof. Tie Luo.},
+  html={https://scholarsmine.mst.edu/masters_theses/8159},
+  bibtex_show={true}
 }

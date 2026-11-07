@@ -4,7 +4,8 @@ github_users:
 repo_description_lines_max: 3
 
 github_repos:
+  - raja-sunkara/Learned-Partitions-SequOOL
   - LabSAINT/SPD-Conv
-  - LabSAINT/YOGA
+  - TrustAIoT/YOGA_object-detection
   - raja-sunkara/Advanced-Topics-in-Artificial-Intelligence
   - raja-sunkara/Machine-Learning-in-Computer-Vision
